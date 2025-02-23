@@ -1,0 +1,6 @@
+---
+- name: Deploy RabbitMQ locally
+  hosts: localhost
+  become: true
+  roles:
+    - rabbitmq_role

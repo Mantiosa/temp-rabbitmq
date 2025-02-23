@@ -1,0 +1,6 @@
+---
+rabbitmq_vhost: my_vhost
+rabbitmq_user: testuser
+rabbitmq_admin_plugin: rabbitmq_management
+
+rabbitmq_test_user_password: "{{ rabbitmq_test_user_password }}"
